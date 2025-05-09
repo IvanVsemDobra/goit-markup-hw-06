@@ -23,9 +23,9 @@
 <body class="body">
     
      <header class="header">
-         <div class="container container-heder">
+        <div class="container container-heder">
              <nav class="heder-nav"> 
-                    <a class="header-logo" href="./index.html"> Web<span class="heder-span">Studio</span></a>
+                    <a class="logo header-logo" href="./index.html"> Web<span class="heder-span">Studio</span></a>
             
                 <ul class="heder-list-nav">
 
@@ -53,7 +53,79 @@
                     </li>
                  </ul>
              </address>
-         </div>
+                <button class="button burger-btn" type="button" data-menu-open>
+                    <svg class="img burger-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-burger_menu">
+                        </use>
+                    </svg>
+                </button>
+        </div>
+        <div class="burger-menu is-open" data-menu>
+            <div class="container burger-menu-container">
+                <button class="burger-menu-close" type="button" data-menu-close>close</button>
+                <nav class="burger-menu-nav">
+                    <a class="logo header-logo" href="./index.html"> Web<span class="heder-span">Studio</span></a>
+                
+                    <ul class="heder-list-nav">
+                
+                        <li class="heder-nav-item">
+                            <a class="heder-link current" href="./index.html">Studio</a>
+                        </li>
+                        <li class="heder-nav-item">
+                            <a class="heder-link" href="">Portfolio</a>
+                        </li>
+                        <li class="heder-nav-item">
+                            <a class="heder-link" href="">Contacts</a>
+                        </li>
+                    </ul>
+                
+                </nav>
+                <address id="contacns" class="heder-address">
+                
+                    <ul class="heder-list-address">
+                        <li class="heder-address-item">
+                            <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li class="heder-address-item">
+                            <a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        </li>
+                    </ul>
+                </address>
+                <div class="container-social">
+                    <p class="footer-text-f">Social media</p>
+                    <ul class="social-list list-footer">
+                        <li class="social-list-team">
+                            <a class="link footer-tem-link" href="https://www.instagram.com">
+                                <svg class="img team-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-list-team">
+                            <a class="link footer-tem-link" href="https://x.com">
+                                <svg class="img team-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-list-team">
+                            <a class="link footer-tem-link" href="https://www.facebook.com">
+                                <svg class="img team-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-list-team">
+                            <a class="link footer-tem-link" href="https://ua.linkedin.com">
+                                <svg class="img team-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
+            </div>
+        </div>
      </header>
 
 <main>
@@ -457,7 +529,7 @@
                         id="subscribe-form-email"
                 >
         </label>
-        <button class="button button_footer" type="submit">
+        <button class="button button_footer" type="submit" data-modal-open>
                 Subscribe
                 <svg class="img team-icon icon-footer" width="24" height="24">
                         <use href="./images/icons.svg#icon-telegram"></use>
@@ -468,12 +540,13 @@
 
     </div>
 </footer> -->
-    <div class="backdrop is-open" >
+    
+<div class="backdrop is-open" data-modal>
 
     <!-- " -->
-        <div class="modal">
+        <!-- <div class="modal">
             
-                <button class="close_button" type="button">
+                <button class="close_button" type="button data-modal-close>
                     <svg class="icon-close" width="8" height="8">
                         <use href="./images/icons.svg#icon-close">
                         </use>
@@ -547,9 +620,10 @@
                     
         </form>
 
-        </div>
+        </div> -->
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./css/modal.js"></script>
+    <script src="./css/menu.js"></script>
 </body>
 
 </html>
