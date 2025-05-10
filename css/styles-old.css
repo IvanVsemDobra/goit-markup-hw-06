@@ -1,4 +1,17 @@
  
+@media screen and (min-width: 768px) {
+    .burger-menu {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1158px) {
+    .burger-menu {
+        display: none;
+    }
+}
+
 
 h1 {
     font-family: var(--font-family);
@@ -28,58 +41,7 @@ h3 {
     letter-spacing: 0.02em;
     color: var(--navy-blue);
 }
-.container-hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 0px;
-    flex-basis:  1158px;
-} 
-.section-hero {
-    padding-top: 188px;
-    padding-bottom: 188px;
-    position: relative;
-    max-width: 1440px;
-    width: auto;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg );
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 0 auto;
-}
 
-.section-hero-main {
-    display: flex;
-    align-items: center;
-    max-width: 496px;
-    margin-bottom: 48px;
-    line-height: 1.07;
-}
-
-.button {
-    font-family: var(--font-family);
-    background-color: var(--iris);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color:var(--white);
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.button :hover,
-.button:focus {
-    cursor: pointer;
-    color: var(--white);
-    background-color:var(--ocean);
-    border-radius: 4px;
-}
 
 .section {
     padding-top: 120px;

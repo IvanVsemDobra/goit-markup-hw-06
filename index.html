@@ -53,70 +53,75 @@
                     </li>
                  </ul>
              </address>
-                <button class="button burger-btn" type="button" data-menu-open>
+                <button class="burger-btn" type="button" data-menu-open>
                     <svg class="img burger-icon" width="24" height="24">
                         <use href="./images/icons.svg#icon-burger_menu">
                         </use>
                     </svg>
                 </button>
         </div>
-        <div class="burger-menu is-open" data-menu>
+        <div class="burger-menu" data-menu>
             <div class="container burger-menu-container">
-                <button class="burger-menu-close" type="button" data-menu-close>close</button>
+                
+                <button class="close_button burger-menu-close" type="button" data-menu-close>
+                    <svg class="icon-close" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close">
+                        </use>
+                    </svg>
+                </button>
+                
                 <nav class="burger-menu-nav">
-                    <a class="logo header-logo" href="./index.html"> Web<span class="heder-span">Studio</span></a>
+                    
+                    <ul class="burger-list-nav">
                 
-                    <ul class="heder-list-nav">
-                
-                        <li class="heder-nav-item">
-                            <a class="heder-link current" href="./index.html">Studio</a>
+                        <li class="burger-nav-item">
+                            <a class="burger-link mobil-link" href="./index.html">Studio</a>
                         </li>
-                        <li class="heder-nav-item">
-                            <a class="heder-link" href="">Portfolio</a>
+                        <li class="burger-nav-item">
+                            <a class="burger-link" href="">Portfolio</a>
                         </li>
-                        <li class="heder-nav-item">
-                            <a class="heder-link" href="">Contacts</a>
+                        <li class="burger-nav-item">
+                            <a class="burger-link" href="">Contacts</a>
                         </li>
                     </ul>
                 
                 </nav>
-                <address id="contacns" class="heder-address">
+                <address id="contacns-burger" class="burger-address">
                 
-                    <ul class="heder-list-address">
+                    <ul class="burger-list-address">
                         <li class="heder-address-item">
-                            <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            <a class="burger-address-link mobaile-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                         </li>
                         <li class="heder-address-item">
-                            <a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                            <a class="burger-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                         </li>
                     </ul>
                 </address>
-                <div class="container-social">
-                    <p class="footer-text-f">Social media</p>
-                    <ul class="social-list list-footer">
+                <div class="container-social-burger">
+                    <ul class="social-list list-burger">
                         <li class="social-list-team">
-                            <a class="link footer-tem-link" href="https://www.instagram.com">
+                            <a class="link burger-tem-link" href="https://www.instagram.com">
                                 <svg class="img team-icon" width="24" height="24">
                                     <use href="./images/icons.svg#icon-instagram"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social-list-team">
-                            <a class="link footer-tem-link" href="https://x.com">
+                            <a class="link burger-tem-link" href="https://x.com">
                                 <svg class="img team-icon" width="24" height="24">
                                     <use href="./images/icons.svg#icon-twitter"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social-list-team">
-                            <a class="link footer-tem-link" href="https://www.facebook.com">
+                            <a class="link burger-tem-link" href="https://www.facebook.com">
                                 <svg class="img team-icon" width="24" height="24">
                                     <use href="./images/icons.svg#icon-facebook"></use>
                                 </svg>
                             </a>
                         </li>
                         <li class="social-list-team">
-                            <a class="link footer-tem-link" href="https://ua.linkedin.com">
+                            <a class="link burger-tem-link" href="https://ua.linkedin.com">
                                 <svg class="img team-icon" width="24" height="24">
                                     <use href="./images/icons.svg#icon-linkedin"></use>
                                 </svg>
@@ -130,14 +135,14 @@
 
 <main>
 
-             <!-- <section class="hero section-hero">
+             <section class="hero section-hero">
                  <div class="container container-hero">
-                    <h1 class="section-hero-main">Effective Solutions for Your Business</h1>
+                    <h1 class="hero-title">Effective Solutions for Your Business</h1>
                     <button class="button" type="button">Order Service</button>
                  </div>
-             </section> -->
+             </section>
 
-         <!-- <section class="section">
+         <section class="section">
              <div class="container container-section">
                 <h2 class="section-hero-h visually-hidden">Our Services</h2>
                     <ul class="section-list">
@@ -190,9 +195,9 @@
                         </li>
                     </ul>
              </div>
-         </section> -->
+         </section>
 
-         <!-- <section id="studio" class="section-team">
+         <section id="studio" class="section-team">
              <div class="container container-team">
                  <h2 class="section-team-h">Our Team</h2>
                  <ul class="section-team-list">
@@ -375,9 +380,9 @@
                      </li>
                  </ul>
                  </div>
-         </section> -->
+         </section>
 
-         <!-- <section id="portfolio" class="section-portfolio">
+         <section id="portfolio" class="section-portfolio">
             <div class="container container-portfolio">
                 <h2 class="section-portfolio-h">Our Portfolio</h2>
 
@@ -470,7 +475,7 @@
                          </li>
                     </ul>
             </div>
-         </section> -->
+         </section>
 </main>
   
 <!-- <footer class="footer">
@@ -541,7 +546,7 @@
     </div>
 </footer> -->
     
-<div class="backdrop is-open" data-modal>
+<!-- <div class="backdrop" data-modal> -->
 
     <!-- " -->
         <!-- <div class="modal">
@@ -622,7 +627,7 @@
 
         </div> -->
     </div>
-    <script src="./css/modal.js"></script>
+    <!-- <script src="./css/modal.js"></script> -->
     <script src="./css/menu.js"></script>
 </body>
 
