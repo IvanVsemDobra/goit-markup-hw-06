@@ -95,6 +95,7 @@ p {
     color: var(--navy-blue);
     border-bottom: 1px solid var(--cornflower);
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+    margin-bottom: 120px;
 }
 .container-heder {
     display: flex;
@@ -385,6 +386,7 @@ p {
 }
 .burger-address-link {
 font-family: var(--font-family);
+font-style:normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -430,13 +432,12 @@ color: var(--slate);
 
 /* gotainer hero */
 .section-hero {
-    padding-top: 72px;
-    padding-bottom: 72px;
+   margin-bottom: 72px;
     position: relative;
 
 
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)), url(../images/background/Dark-bg-mb.png );
+            rgba(46, 47, 66, 0.7)), url(../images/background/dark-bg-mb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -490,7 +491,7 @@ color: var(--slate);
             padding-bottom: 112px;
             position: relative;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                    rgba(46, 47, 66, 0.7)), url(../images/background/dark-bg-tab.png );
+                    rgba(46, 47, 66, 0.7)), url(../images/background/dark-bg-tab.jpg );
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -498,7 +499,7 @@ color: var(--slate);
         }
         @media (min-resolution: 192dpi) {
             .box {
-              background-image: url(../images/background/dark-bg-tab-x.png);
+              background-image: url(../images/background/dark-bg-tab-x.jpg);
             }
           }
         .container-hero {
@@ -548,7 +549,7 @@ color: var(--slate);
         }
         @media (min-resolution: 192dpi) {
             .box {
-            background-image: url(../images/background/people-office-x.png);
+            background-image: url(../images/background/people-office-x.jpg);
             }
           }        
                 h1 {
@@ -579,7 +580,7 @@ h2, h3 {
         color: var(--slate);
 }
 section {
-    padding: 96px 16px;
+    margin-bottom: 96px;
     background-color: var(--white);
 }
 .container-section {
@@ -687,8 +688,9 @@ section {
         
 }
 /* section-studio */
+
 .container-team {
-    padding: 96px 28px;
+    margin-bottom: 96px;
     background-color: var(--cloud);
     
 }
