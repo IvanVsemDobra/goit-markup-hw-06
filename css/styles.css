@@ -1161,10 +1161,6 @@ section {
     }
 }
 @media screen and (min-width: 1158px) {
-    .footer {
-        margin-bottom: 100px 159px 100px 156px;
-
-    }
     .container-footer {
         flex-wrap: nowrap;
         align-items: baseline;
