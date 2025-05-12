@@ -962,9 +962,7 @@ section {
     color: var(--cloud);
     background-color: var(--navy-blue);
 }
-.footer-logo-box {
-    margin-top: 96px;
-}
+
 .container-footer {
     display: flex;
     align-items: center;
@@ -983,7 +981,7 @@ section {
     margin: 0 auto;
     padding-bottom: 16px;
     text-align: center;
-
+    padding-top: 96px;
 }
 
 .footer-span {
@@ -1161,6 +1159,11 @@ section {
     }
 }
 @media screen and (min-width: 1158px) {
+    .footer {
+        margin: 0;
+        padding-top: 100px ;
+
+    }
     .container-footer {
         flex-wrap: nowrap;
         align-items: baseline;
@@ -1172,18 +1175,20 @@ section {
         margin-right: 96px;
         
     }
-    .footer-text {
-        margin-bottom: 100px;
-    }
     .container-social{
         margin: 0;
         margin-right: 56px;
     }
     .footer-logo {
         text-align: left;
+        padding: 0;
+        margin-bottom: 16px;
     }
     .footer-text-f {
         margin: 0;
+        }
+        .button_footer {
+            margin-bottom: 100px;
         }
 }
 /* modal */
