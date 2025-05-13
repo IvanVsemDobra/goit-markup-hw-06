@@ -95,7 +95,6 @@ p {
     color: var(--navy-blue);
     border-bottom: 1px solid var(--cornflower);
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-  
 }
 .container-heder {
     display: flex;
@@ -272,7 +271,6 @@ p {
             gap: 40px;
         }
         .heder-address-item {
-            margin: 0 24px;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
@@ -493,9 +491,10 @@ color: var(--slate);
             background-position: center;
             margin: 0 auto;
         }
-        @media (min-resolution: 192dpi) {
-            .box {
-              background-image: url(../images/background/dark-bg-tab-x.jpg);
+        @media (min-resolution: 2x) {
+            .section-hero {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                            rgba(46, 47, 66, 0.7)), url(../images/background/dark-bg-tab-x.jpg);
             }
           }
         .container-hero {
@@ -547,13 +546,14 @@ color: var(--slate);
             padding: 188px 0;
 
         }
-        @media (min-resolution: 192dpi) {
-            .box {
-            background-image: url(../images/background/people-office-x.jpg);
+        @media (min-resolution: 2x) {
+            .section-hero {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                            rgba(46, 47, 66, 0.7)), url(../images/background/people-office-x.jpg);
             }
           }        
-                h1 {
-                    margin-bottom: 48px;
+        h1 {
+            margin-bottom: 48px;
            }
 }
 
@@ -1141,7 +1141,7 @@ section {
         flex-wrap: wrap;
         flex-direction: row;
         gap: 24px;
-        min-width: 584px;
+        width: 584px;
     }
     .footer-logo {
         text-align: left;
@@ -1154,6 +1154,7 @@ section {
     }
     .footer-text-f {
         text-align: left;
+        margin-bottom: 16px;
     }
 }
 @media screen and (min-width: 1158px) {
@@ -1184,6 +1185,7 @@ section {
     }
     .footer-text-f {
         margin: 0;
+        margin-bottom: 16px;
         }
 
 }
