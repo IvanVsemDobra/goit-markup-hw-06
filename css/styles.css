@@ -430,7 +430,7 @@ color: var(--slate);
 
 /* gotainer hero */
 .section-hero {
-    padding: 72px 52px 72px 52px;
+    padding: 72px 0;
     position: relative;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)), url(../images/background/dark-bg-mb.jpg);
@@ -483,7 +483,7 @@ color: var(--slate);
 }
 @media screen and (min-width: 768px) {
     .section-hero {
-            padding: 112px 136px;
+            padding: 112px 0;
             
             position: relative;
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -689,7 +689,7 @@ section {
 }
 /* section-studio */
 .section-team {
-    padding: 96px 28px;
+    padding: 96px 0;
     background-color: var(--cloud);
 }
 
@@ -827,11 +827,10 @@ section {
 }
 /* section-portfolio */
 .section-portfolio {
-    margin-bottom: 96px;
-}
-.container-portfolio {
+    padding:  96px 0;
     background-color: var(--white);
 }
+
 .section-portfolio-list {
     display: flex;
     flex-direction: column;
@@ -961,8 +960,7 @@ section {
     letter-spacing: 0.02em;
     color: var(--cloud);
     background-color: var(--navy-blue);
-    padding: 96px 16px;
-    min-width: 320px;
+    padding: 96px 0;
 }
 
 .container-footer {
@@ -981,7 +979,7 @@ section {
     text-transform: uppercase;
     color: var(--iris);
     margin-bottom: 16px;
-    text-align: left;
+    text-align: center;
 }
 
 .footer-span {
@@ -1040,10 +1038,7 @@ section {
 }
 
 .container-address {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: first baseline;
+    display: block;
 }
 .footer-address-box {
     display: flex;
@@ -1057,7 +1052,7 @@ section {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--white);
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -1148,11 +1143,17 @@ section {
         gap: 24px;
         min-width: 584px;
     }
-        .footer-address-box {
-            flex-direction: row;
+    .footer-logo {
+        text-align: left;
+    }
+    .footer-address-box {
+        flex-direction: row;
         }
     .container-social{
         margin-bottom: 72px;
+    }
+    .footer-text-f {
+        text-align: left;
     }
 }
 @media screen and (min-width: 1158px) {
@@ -1184,9 +1185,7 @@ section {
     .footer-text-f {
         margin: 0;
         }
-        .button_footer {
-            margin-bottom: 100px;
-        }
+
 }
 /* modal */
 .backdrop {
